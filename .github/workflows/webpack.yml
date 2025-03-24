@@ -1,0 +1,20 @@
+            - الاسم: النشر على IBM Cloud Foundry
+  # يمكنك التثبيت على الالتزام الدقيق أو الإصدار.
+  # الاستخدامات: IBM/cloudfoundry-deploy@fcb5a74cb36e7cd0bfe9f9b5d9d57aab85d00bd1
+  الاستخدامات: IBM/cloudfoundry-deploy@v2.1
+  مع:
+    # مفتاح API لـ IBM Cloud
+    مفتاح واجهة برمجة تطبيقات IBM_CLOUD:
+    # نقطة نهاية واجهة برمجة تطبيقات IBM Cloud Foundry
+    IBM_CLOUD_CF_API:
+    # اسم منظمة IBM Cloud Foundry
+    IBM_CLOUD_CF_ORG:
+    # اسم مساحة IBM Cloud Foundry
+    مساحة IBM_CLOUD_CF:
+    # ملف بيان التطبيق
+    APP_MANIFEST_FILE: # اختياري، الافتراضي هو manifest.yml
+    # ملف متغيرات التطبيق
+    APP_VARS_FILE: # اختياري
+    # مجموعة موارد IBM Cloud Foundry
+    RESOURCE_GROUP: # اختياري
+          
